@@ -1,0 +1,14 @@
+Base.encode16("foobar")
+"666F6F626172"
+
+Base.encode16("foobar", case: :lower)
+"666f6f626172"
+
+Base.encode32("foobar")
+"MZXW6YTBOI======"
+
+Base.encode32("foobar", case: :lower)
+"mzxw6ytboi======"
+
+Base.encode32("foobar", padding: false)
+"MZXW6YTBOI"

@@ -1,0 +1,20 @@
+ Basic Types
+Atom
+Base
+Bitwise
+Date
+DateTime
+Exception
+Float
+Function
+Integer
+Module
+NaiveDateTime
+Record
+Regex
+String
+Time
+Tuple
+URI
+Version
+Version.Requirement 
